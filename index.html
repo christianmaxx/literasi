@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Budaya Literasi</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <header>
+     <a href="#"  class="logo"><img src="images/logo.png"></a>
+     <ul class="navigation">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Events</a></li>
+      <li><a href="#">Contact</a></li>
+     </ul>
+    </header>
+    <section class="parallax">
+      <h2 id="text">Budaya Literasi</h2>
+      <img src="images/monutain_01.png" id="m1">
+      <img src="images/trees_02.png" id="t2">
+      <img src="images/monutain_02.png" id="m2">
+      <img src="images/trees_01.png" id="t1">
+      <img src="images/man.png" id="man">
+      <img src="images/plants.png" id="plants">
+    </section>
+    <section class="sec">
+      <h2 class="title">Budaya Literasi</h2>
+      <p>
+        Budaya literasi adalah salah satu fondasi penting dalam pengembangan diri dan masyarakat. Literasi tidak hanya sebatas kemampuan membaca dan menulis, tetapi juga mencakup kemampuan untuk memahami, menganalisis, dan mengaplikasikan informasi yang diterima. Mengembangkan budaya literasi bukan hanya untuk kepentingan sendiri, tetapi juga untuk kepentingan  bersama dalam masyarakat.<br><br>
+
+        Budaya literasi menjadi sarana untuk mendalami secara lebih tentang dunia di sekitar kita. Dengan memiliki kemampuan membaca, orang akan dapat mengakses berbagai jenis informasi dari berbagai sumber, mulai dari buku, artikel, hingga internet. Hal ini membuat seseorang untuk dapat terus belajar.<br><br>
+
+        Selain itu, budaya literasi juga membantu meningkatkan kemampuan berpikir kritis atau critical thinking. Ketika seseorang terbiasa untuk membaca dan memproses informasi secara aktif, ia akan lebih cenderung untuk menilai informasi tersebut secara kritis, mempertanyakan kebenaran, dan mencari bukti yang mendukung atau menentangnya.<br><br>
+
+        Dengan budaya literasi yang kuat, seseorang dapat meningkatkan wawasannya tentang berbagai topik. Buku, artikel, dan hal-hal lainnya  dapat memberikan akses ke pengetahuan yang luas, seperti sejarah, ilmu pengetahuan, seni, budaya, dan banyak lagi. Dengan membaca secara aktif, seseorang dapat memperluas wawasannya tentang berbagai perspektif dan ide, yang nantinya dapat memberikan pemikiran yang kreatif dan inovatif.<br><br>
+
+        Selain untuk meningkatkan wawasan, budaya literasi juga membantu meningkatkan pengetahuan tentang berbagai hal. Misalnya, ketika seseorang membaca buku tentang sejarah, ia tidak hanya memperoleh pemahaman tentang peristiwa yang terjadi di masa lalu, tetapi juga tentang dampaknya pada dunia saat ini. Begitu juga dengan membaca tentang ilmu pengetahuan, seni, atau topik lainnya, seseorang dapat memperoleh pengetahuan yang lebih mendalam tentang topik tersebut.<br><br>
+
+        Membangun budaya literasi bukanlah yang mudah untuk dilakukan, budaya literasi perlu dipupuk secara konsisten sehingga bisa menjadi habit yang akan terus dilakukan dalam jangka panjang. Berikut adalah hal-hal yang dapat dilakukan untuk membangun budaya literasi.<br><br>
+        <ol type="1">
+          <li>Membaca secara konsisten. Usahakan untuk selalu meluangkan waktu setiap hari untuk membaca. Bisa dimulai dengan membaca buku, artikel, atau internet.</li>
+          <li>Diskusi dengan orang lain. Mendiskusikan apa yang telah dibaca dengan orang lain, dapat membantu memperluas pemahaman tentang suatu topik.</li>
+          <li>Bacalah banyak buku. Perbanyak buku yang akan dibaca, jangan hanya membaca satu buku saja. Membaca banyak buku dapat melatih skill critical thinking untuk memilah informasi apa saja yang akan diterima.</li>
+          <li>Pilihlah topik yang menarik dan bermanfaat. Membaca buku dengan topik yang menarik  dapat membuat seseorang penasaran dan mempelajari topik tersebut sehingga orang tersebut akan terus membacanya.</li>
+        </ol><br><br>
+
+       <P> Dengan membangun budaya literasi yang kuat, kita tidak hanya mengupgrade diri kita sendiri, tetapi juga mendorong perkembangan masyarakat menjadi lebih baik. Literasi adalah kunci untuk membuka pintu menuju pengetahuan dan pemahaman yang lebih dalam tentang dunia di sekitar kita. Mari bangun budaya literasi bersama-sama untuk masa depan yang lebih cerah. </P>  
+    </section>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.1/ScrollTrigger.min.js"></script>
+    <script>
+      gsap.from("#m1", {
+        scrollTrigger : {
+          scrub: true
+        },
+        y: 100,
+      })
+      gsap.from("#m2", {
+        scrollTrigger : {
+          scrub: true
+        },
+        y: 50,
+      })
+      gsap.from("#t2", {
+        scrollTrigger : {
+          scrub: true
+        },
+        x: -50,
+      })
+      gsap.from("#t1", {
+        scrollTrigger : {
+          scrub: true
+        },
+        x: 50,
+      })
+      gsap.from("#man", {
+        scrollTrigger : {
+          scrub: true
+        },
+        x: -180,
+      })
+      gsap.from("#plants", {
+        scrollTrigger : {
+          scrub: true
+        },
+       x: -50,
+      })
+      gsap.from("#text", {
+        scrollTrigger : {
+          scrub: true
+        },
+       x: 200,
+      })
+    </script>
+  </body>
